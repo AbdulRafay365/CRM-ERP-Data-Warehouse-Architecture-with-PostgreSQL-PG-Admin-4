@@ -1,0 +1,47 @@
+/*
+--------------------------------------------------------------------------------
+NOTE:
+This script initializes the PostgreSQL Data Warehouse environment following the
+Medallion Architecture (Bronze → Silver → Gold). It creates the main database
+and the three logical schemas used for organizing data at different stages of 
+processing.
+
+To be used as part of a GitHub commit under init_datawarehouse.sql
+--------------------------------------------------------------------------------
+*/
+
+/*------------------------------------------------------------------------------
+-- STEP 1: Create the database (uncomment DROP if reinitializing from scratch)
+------------------------------------------------------------------------------*/
+
+-- DROP DATABASE IF EXISTS "DataWarehouse"; -- Optional: Only use during reset
+
+CREATE DATABASE "DataWarehouse"
+    WITH
+    OWNER = postgres                     -- Change owner if needed
+    ENCODING = 'UTF8'                    -- Standard encoding
+    LC_COLLATE = 'C'                     -- Locale settings for sorting
+    LC_CTYPE = 'C'                       -- Locale settings for character classification
+    LOCALE_PROVIDER = 'libc'            -- Locale provider (libc for compatibility)
+    TABLESPACE = pg_default              -- Default tablespace
+    CONNECTION LIMIT = -1               -- No connection limit
+    IS_TEMPLATE = False;                -- Not a template DB
+
+/*------------------------------------------------------------------------------
+-- STEP 2: Create schemas for Medallion Architecture
+------------------------------------------------------------------------------*/
+
+/* Bronze Schema: Holds raw ingested data (e.g., JSON, CSV with minimal processing) */
+-- DROP SCHEMA IF EXISTS bronze;
+CREATE SCHEMA IF NOT EXISTS bronze
+    AUTHORIZATION postgres;
+
+/* Silver Schema: Holds cleaned, structured, and validated data */
+-- DROP SCHEMA IF EXISTS silver;
+CREATE SCHEMA IF NOT EXISTS silver
+    AUTHORIZATION postgres;
+
+/* Gold Schema: Holds aggregated, business-ready data for reporting/analytics */
+-- DROP SCHEMA IF EXISTS gold;
+CREATE SCHEMA IF NOT EXISTS gold
+    AUTHORIZATION postgres;
