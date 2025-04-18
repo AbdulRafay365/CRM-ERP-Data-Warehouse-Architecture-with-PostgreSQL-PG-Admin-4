@@ -3,7 +3,7 @@
 Welcome to my Data Warehouse and Analytics portfolio project!
 This repository highlights a complete end-to-end implementation of a modern analytics solution using PostgreSQL — from raw data ingestion to refined insights, all built through a structured, layered architecture.
 
-A special thanks to @datawithbaraa for the invaluable guidance and step-by-step direction throughout this project.
+A special thanks to [@DataWithBaraa](https://github.com/DataWithBaraa) for the invaluable guidance and step-by-step direction throughout this project.
 
 ---
 
