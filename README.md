@@ -48,7 +48,7 @@ All resources and tools used are open and accessible:
 - **pgAdmin / Terminal** – GUI clients for PostgreSQL  
 - **Draw.io** – Data architecture and modeling diagrams  
 - **GitHub** – Version control and collaboration  
-- **Notion** – Project task management and documentation | www.notion.so/SQL-Data-Warehouse-Project-1d964c033bf780ac9161f1ddc0cdf2f0
+- **Notion** – Project task management and documentation | [SQL Data Warehouse Project](https://www.notion.so/SQL-Data-Warehouse-Project-1d964c033bf780ac9161f1ddc0cdf2f0)
 
 ---
 
