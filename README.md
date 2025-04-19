@@ -1,4 +1,4 @@
-# Data Warehouse & Analytics with PostgreSQL
+# Data-Warehouse-Architecture-and-ETL-in-PostgreSQL
 
 Welcome to my Data Warehouse and Analytics portfolio project!
 This repository highlights a complete end-to-end implementation of a modern analytics solution using PostgreSQL — from raw data ingestion to refined insights, all built through a structured, layered architecture.
