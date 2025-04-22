@@ -1,4 +1,4 @@
-# CRM & ERP Data Warehouse Architecture with PostGreSQL & PG Admin 4
+# CRM & ERP Data Warehouse Architecture with PostgreSQL & PG Admin 4
 
 This repository highlights a complete end-to-end implementation of a modern analytics solution using PostgreSQL — from raw data ingestion to refined insights, all built through a structured, layered architecture.
 
