@@ -20,7 +20,7 @@ In this layer, data undergoes essential transformations: cleaning, validation, a
 
 ### 🥇 Gold Layer  
 This layer contains business-ready, analysis-optimized data. Data is modeled using a **Star Schema** to support robust analytics and reporting.
-
+[Final Gold Views](https://drive.google.com/drive/folders/1GZL7wKnuCOsxT3CmLQTtaIogmdH99bxu?usp=drive_link)
 ---
 
 ## Project Highlights
