@@ -1,8 +1,6 @@
 # CRM & ERP Data Warehouse Architecture with PostgreSQL & PG Admin 4
 
-This repository highlights a complete end-to-end implementation of a modern analytics solution using PostgreSQL — from raw data ingestion to refined insights, all built through a structured, layered architecture.
-
-A special thanks to [@DataWithBaraa](https://github.com/DataWithBaraa) for the invaluable guidance and step-by-step direction throughout this project.
+This repository highlights a complete end-to-end implementation of a modern analytics solution using PostgreSQL — from raw data ingestion to refined insights in Tableau, all built through a structured, layered Medallion-Style architecture.
 
 ---
 
@@ -10,7 +8,7 @@ A special thanks to [@DataWithBaraa](https://github.com/DataWithBaraa) for the i
 
 The project is designed using the **Medallion Architecture** model, featuring three distinct layers for scalable data transformation:
 
-![image](https://github.com/user-attachments/assets/d25f6e62-10d0-416a-9252-e6c048d046d6)
+![High Level Architecture](https://github.com/user-attachments/assets/89ab529c-5c26-44e9-9832-28a106de3923)
 
 ### 🥉 Bronze Layer  
 Stores raw, unprocessed data directly from CSV files. Data is loaded as-is into PostgreSQL for traceability.
@@ -113,4 +111,6 @@ data-warehouse-project/
 ---
 
 ## Socials
+
+A special thanks to [@DataWithBaraa](https://github.com/DataWithBaraa) for inspiring me to work on this project :)
 
