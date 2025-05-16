@@ -28,8 +28,7 @@ This project demonstrates practical skills in:
 
 - **PostgreSQL-based Data Engineering**
 - **ETL Pipelines** (Extraction, Transformation, Load)
-- **Dimensional Modeling![High Level Architecture](https://github.com/user-attachments/assets/8aa5e1ce-ca9f-45f5-a8cf-720a39a16012)
-** (Star Schema)
+- **Dimensional Modeling** (Star Schema)
 - **SQL Reporting** and dashboard support
 - Data Visualization
 
