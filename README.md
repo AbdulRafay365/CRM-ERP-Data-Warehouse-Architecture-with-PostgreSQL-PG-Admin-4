@@ -19,6 +19,8 @@ In this layer, data undergoes essential transformations: cleaning, validation, a
 ### 🥇 Gold Layer  
 This layer contains business-ready, analysis-optimized data. Data is modeled using a **Star Schema** to support robust analytics and reporting.
 
+![Gold ERD](https://github.com/AbdulRafay365/CRM-ERP-Data-Warehouse-Architecture-with-PostgreSQL-PG-Admin-4/blob/main/Documents/Gold%20Layer%20ERD.png)
+
 ##### [Final Gold Views](https://drive.google.com/drive/folders/1GZL7wKnuCOsxT3CmLQTtaIogmdH99bxu?usp=drive_link)
 ---
 
@@ -75,15 +77,25 @@ Analyze business-critical metrics like:
 - Product-level performance  
 - Sales growth and regional analysis  
 
+### Build a Tableau Dashboard Using Gold Views
+**Goal**: Summarize insights using KPIs and Graphs in an Interactive Dashboard using Tableau
+
+Visualize Metrics liks:
+
+- Total Sales
+- Top Products
+- Top Customers
+- Top Regions
+  
 ---
 
 ## Repository Structure
 ```
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── Datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                               # Project documentation and architecture details
+├── Documents/                               # Project documentation and architecture details
 │   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
@@ -91,17 +103,16 @@ data-warehouse-project/
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
-├── scripts/                            # SQL scripts for ETL and transformations
+├── Scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
 │
-├── tests/                              # Test scripts and quality files
+├── Tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
 
 ---
