@@ -118,14 +118,20 @@ data-warehouse-project/
 ---
 
 ## About Me
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2dc8ff3d-c4cb-43d4-9042-f49df7c2698a" alt="image" />
+</p>
+I am a data enthusiast with a strong interest in business intelligence, data analytics, and visualization. I enjoy transforming raw data into actionable insights using tools like SQL, Tableau, and Python. With hands-on experience in building data pipelines and dashboards, I aim to bridge the gap between data and decision-making.
 
 ---
 
-## License
+## Links and Contact
 
----
-
-## Socials
-
+- 📧 [Email](mailto:abdulrafaymohammed365@gmail.com)  
+- 📞 Phone: +1 (437) 661-3674  
+- 💼 [LinkedIn](https://www.linkedin.com/in/abdulrafaymohammed365)  
+- 💻 [GitHub](https://github.com/AbdulRafay365)  
+- 📊 [Tableau Public](https://public.tableau.com/app/profile/abdul.rafay.mohammed2129/vizzes)
+  
 A special thanks to [@DataWithBaraa](https://github.com/DataWithBaraa) for inspiring me to work on this project :)
 
