@@ -1,4 +1,4 @@
-# CRM & ERP Data Warehouse Architecture with PostgreSQL & PG Admin 4
+# CRM & ERP Data Warehouse Architecture with PostgreSQL & PG Admin 4 (WORK IN PROGRESS)
 
 This repository highlights a complete end-to-end implementation of a modern analytics solution using PostgreSQL — from raw data ingestion to refined insights in Tableau, all built through a structured, layered Medallion-Style architecture.
 
@@ -8,7 +8,7 @@ This repository highlights a complete end-to-end implementation of a modern anal
 
 The project is designed using the **Medallion Architecture** model, featuring three distinct layers for scalable data transformation:
 
-![High Level Architecture](https://github.com/user-attachments/assets/89ab529c-5c26-44e9-9832-28a106de3923)
+![High Level Architecture](https://github.com/user-attachments/assets/01b1ab91-9a21-477e-87d6-56b7408ba593)
 
 ### 🥉 Bronze Layer  
 Stores raw, unprocessed data directly from CSV files. Data is loaded as-is into PostgreSQL for traceability.
@@ -28,14 +28,17 @@ This project demonstrates practical skills in:
 
 - **PostgreSQL-based Data Engineering**
 - **ETL Pipelines** (Extraction, Transformation, Load)
-- **Dimensional Modeling** (Star Schema)
+- **Dimensional Modeling![High Level Architecture](https://github.com/user-attachments/assets/8aa5e1ce-ca9f-45f5-a8cf-720a39a16012)
+** (Star Schema)
 - **SQL Reporting** and dashboard support
+- Data Visualization
 
 Key workflows include:
 
 - Designing scalable data pipelines
 - Building analytical data models
 - Creating SQL reports for business insights
+- Delivering insights through Tableau (**In Progress**)
 
 ---
 
@@ -43,12 +46,14 @@ Key workflows include:
 
 All resources and tools used are open and accessible:
 
-- **PostgreSQL** – Open-source database platform for storage & transformations  
+- **PostgreSQL** – Open-source database platform for storage & transformations
+- **PGAdmin** - Interface to work with Postgre Databases
 - **CSV Datasets** – ERP & CRM data used as source systems  
 - **pgAdmin / Terminal** – GUI clients for PostgreSQL  
 - **Draw.io** – Data architecture and modeling diagrams  
 - **GitHub** – Version control and collaboration  
 - **Notion** – Project task management and documentation | [SQL Data Warehouse Project](https://www.notion.so/SQL-Data-Warehouse-Project-1d964c033bf780ac9161f1ddc0cdf2f0)
+- **Tableau** - Data visualization to derive insights
 
 ---
 
