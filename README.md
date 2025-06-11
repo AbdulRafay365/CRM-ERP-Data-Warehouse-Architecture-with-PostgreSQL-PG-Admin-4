@@ -3,7 +3,10 @@
 This repository highlights a complete end-to-end implementation of a modern analytics solution using PostgreSQL — from raw data ingestion to refined insights in Tableau, all built through a structured, layered Medallion-Style architecture.
 
 Final Dashboard (⚠️ UNDER DEVELOPMENT):
-<img width="1203" alt="Screenshot 2025-05-23 at 8 45 15 AM" src="https://github.com/user-attachments/assets/60d9dc45-d46d-4ccf-84d5-95103bb73b57" />
+<div align="center">
+  <img width="1203" alt="<img width="1301" alt="Screenshot 2025-06-11 at 3 01 30 PM" src="https://github.com/user-attachments/assets/70467859-c76e-4f82-a975-5c309b34bdb1" />
+</div>
+
 ---
 
 ## Modern Data Stack Architecture
